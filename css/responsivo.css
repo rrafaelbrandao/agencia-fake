@@ -1,0 +1,160 @@
+@media screen and (max-width: 1005px) {
+
+    .barra-navegacao {
+        /* Dimensões */
+        height: auto;
+        padding: 15px 5%;
+
+        /* Posicionamento */
+        flex-direction: column;
+    }
+
+    .barra-navegacao__logo {
+        /* Dimensões */
+        flex: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 15px;
+
+        /* Textos */
+        text-align: center;
+    }
+
+    .barra-navegacao__menu {
+        /* Dimensões */
+        flex: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+        /* Posicionamento */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 25px;
+    }
+
+    header {
+        /* Dimensões */
+        height: auto;
+        padding: 20px 5% 0;
+
+        /* Posicionamento */
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .headline-texto {
+        /* Dimensões */
+        flex: none;
+        margin: 0;
+        padding-top: 20px;
+
+        /* Posicionamento */
+        align-items: center;
+    }
+
+    .headline-texto h2 {
+        /* Dimensões */
+        margin-bottom: 5px;
+    }
+
+    .headline-texto p {
+        /* Dimensões */
+        margin-bottom: 5px;
+    }
+
+    .headline-imagem {
+        /* Dimensões */
+        flex: none;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto 0;
+    }
+
+    .headline-imagem img {
+        /* Dimensões */
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        /* Dimensões */
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin: 40px 5% 0;
+    }
+
+    section h2 {
+        /* Dimensões */
+        flex: none;
+        margin-bottom: 25px;
+
+        /* Textos */
+        font-size: 40px;
+    }
+
+    .servicos {
+        /* Dimensões */
+        flex: none;
+
+        /* Posicionamento */
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .servicos__card {
+        /* Dimensões */
+        flex: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    footer {
+        /* Dimensões */
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .barra-navegacao__menu {
+        /* Posicionamento */
+        gap: 12px 18px;
+    }
+
+    .barra-navegacao__menu a {
+        /* Textos */
+        font-size: 14px;
+    }
+
+    .headline-texto h2 {
+        /* Textos */
+        font-size: 30px;
+    }
+
+    .headline-texto p {
+        /* Textos */
+        font-size: 16px;
+    }
+
+    section h2 {
+        /* Textos */
+        font-size: 32px;
+    }
+
+    .servicos__card h3 {
+        /* Textos */
+        font-size: 18px;
+    }
+
+    .servicos__card p {
+        /* Textos */
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+}
